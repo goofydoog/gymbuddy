@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="What's New in Version 1.2.5\n
+We're excited to announce the latest update to GymBuddy! This version brings a host of new features, improvements, and bug fixes to enhance your experience. Here's what you can expect:\n
+\n
+Upcoming Updates:
+Dark Mode Support: By popular demand, we're introducing Dark Mode to help reduce eye strain in low-light conditions and save on battery life. You can switch to Dark Mode in the app settings.
+Enhanced Search Functionality: We've revamped our search engine to deliver faster and more relevant results, making it easier to find exactly what you're looking for.
+New User Dashboard: Get insights into your activity with our newly designed dashboard, featuring detailed statistics and personalized recommendations.
+Social Sharing: Share your favorite content directly from the app to your social media accounts, including Facebook, Twitter, and Instagram.\n
+\n
+Fixed Bugs:
+Login Issues: Fixed a problem where some users were getting logged out unexpectedly. You should now stay logged in across sessions.
+Notification Glitches: Corrected an issue that caused some users not to receive push notifications. Make sure your notifications are turned on in the settings.
+Crash on Startup: Addressed a crash affecting certain devices when the app was launched. The app should now start smoothly without any hiccups.
+Profile Update Errors: Resolved a bug that prevented some users from updating their profile information. You can now edit your profile without any issues.\n
+\n
+Performance Improvements:
+Faster App Loading: Optimized app loading times, so you get to the content you love faster than ever.
+Improved Battery Efficiency: Made under-the-hood adjustments to ensure GymBuddy uses less battery, so you can use it longer on a single charge.
+
+UI/UX Enhancements: Updated various elements of the app interface for a cleaner, more intuitive navigation experience.
+We're continually working to make GymBuddy better for you. As always, we value your feedback. If you have any comments or experience any issues, please contact our support team.
+\n\n
+Thank you for using GymBuddy!
+"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:layout_marginBottom="135dp"
+        android:textColor="@color/CadmiumRed"/>
+
+</FrameLayout>
